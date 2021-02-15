@@ -1,0 +1,39 @@
+/*Style pour les barres de navigation*/
+
+#navigation, #menu-hierarchique{
+    font-size: 1.5em;
+    width:98%;
+    margin:auto;
+}
+
+#liste-navigation{
+    list-style: none;
+    margin:10px;
+}
+
+.lien-navigation{
+    display:inline-block;
+    padding:5px 10px;
+    border-right: 1px solid rgb(200,203,212);
+}
+
+.lien-navigation a{
+    text-decoration:none;
+    color: rgb(146,57,49); 
+}
+
+.lien-navigation a:hover, .lien-hierarchique:hover{
+    text-decoration: none;
+}
+
+#dernier-lien{
+    border-right:none;
+}
+
+#menu-hierarchique p{
+    margin:10px;
+}
+
+.lien-hierarchique{
+    color:black;
+}

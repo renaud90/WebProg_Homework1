@@ -1,0 +1,44 @@
+/*Styles commun pour tous les items dans les résultats de recherche*/
+
+.item{
+    height:300px;
+    width:250px;
+    background-color: rgb(242,242,242);
+    margin:10px;
+}
+
+.item div{
+    width:90%;
+    margin:auto;
+}
+
+.item-nom{
+    color: black;
+    font-size:3em;
+    padding:50px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mois, .bouton-selectionner{
+    font-size:1.5em;
+}
+
+.mois, .consultations, .details{
+    color:rgb(123,149,142);
+}
+
+.bouton-selectionner{
+    background-color:rgb(49,133,155);
+    color:white;
+    padding:5px 0px 5px 0px;
+
+}
+
+.bouton-selectionner:hover{
+    cursor: pointer;
+}
+
+.mois{
+    padding-top:5px;
+}

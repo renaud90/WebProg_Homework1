@@ -1,0 +1,30 @@
+/*Style spécifiques à l'entête de la page*/
+
+#entete{
+    font-size:1.5em;
+}
+
+#logo{
+    width:10%;
+    margin:5px;
+    margin-left:5%;
+    margin-right:0px;
+}
+
+img{
+    width:100%;
+}
+
+#logo:hover{
+    cursor:pointer;
+}
+
+#slogan{
+    width:15%;
+    font-size: 1em;
+}
+
+#lien-application-mobile{
+    position: absolute;
+    right:5%;
+}

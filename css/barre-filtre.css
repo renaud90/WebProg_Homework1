@@ -1,0 +1,23 @@
+/*Style pour la barre de filtres à gauche de la page*/
+
+#barre-filtres{
+    margin:10px;
+    border-right:1px solid rgb(200,203,212);
+    font-size: 1.5em;
+    min-height:700px;
+    margin-left:1%;
+}
+
+.categorie{
+    color:rgb(96,103,113);
+    font-weight: bold;
+}
+
+.categorie + ul{
+    list-style: none;
+}
+
+.filtre{
+    margin-left:20px;
+}
+
